@@ -48,12 +48,12 @@
             key-positions = <42 41>;
         };
 
-        LANG {
+        LANG01 {
             bindings = <&kp LG(SPACE)>;
             key-positions = <5 4>;
         };
 
-        LANG {
+        LANG02 {
             bindings = <&kp LG(SPACE)>;
             key-positions = <7 6>;
         };
