@@ -14,6 +14,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        COPY {
+            bindings = <&kp LC(C)>;
+            key-positions = <39 40>;
+        };
+
+        PASTE {
+            bindings = <&kp LC(V)>;
+            key-positions = <41 40>;
+        };
+
+        BUFER {
+            bindings = <&kp LA(C)>;
+            key-positions = <42 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
