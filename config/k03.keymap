@@ -73,7 +73,7 @@
 
             display-name = "Base";
             sensor-bindings =
-                <&enc_vol>,
+                <&inc_dec_kp PG_UP PG_DN>,
                 <&enc_vol>,
                 <&enc_vol>,
                 <&enc_vol>,
@@ -91,6 +91,7 @@
             >;
 
             display-name = "Navigation";
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         sym {
@@ -103,6 +104,7 @@
             >;
 
             display-name = "Symbols";
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         adj {
